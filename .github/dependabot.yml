@@ -19,13 +19,3 @@ updates:
       timezone: Europe/Stockholm
     labels:
       - dependencies
-
-  - package-ecosystem: github-actions
-    directory: /
-    schedule:
-      interval: weekly
-      day: monday
-      time: "04:30"
-      timezone: Europe/Stockholm
-    labels:
-      - dependencies
